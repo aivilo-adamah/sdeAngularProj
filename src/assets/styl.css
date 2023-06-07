@@ -1,0 +1,98 @@
+table{
+	border-radius: 20;
+	background-color:aquamarine;
+	padding: 30px;	
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	-ms-border-radius: 20;
+	-o-border-radius: 20;
+	width: max-content;
+	border-left-color: blueviolet;
+	background:linear-gradient(to bottom,  #9932CC,#E9967A,#FF7F50 );
+	/*border-collapse: separate;*/
+    text-align: center;
+   /* border-style: dashed;*/
+}
+
+
+tr:hover td{
+    background-color:aqua;
+    color:burlywood;
+}
+
+
+tr td{
+    transition-duration:0.5s;
+}
+
+input:hover{
+    letter-spacing:0.5em;
+    font-weight: bolder;
+    color:white;
+    background-color: purple;
+    border:  0.2em solid white;
+}
+
+body{
+     background-color:blanchedalmond;
+     background-size: contain;
+     align-items: center;
+     justify-content: center;
+     height: 100px;
+     width: 500px;
+     padding-left: 15px;
+     margin-top: 15px;
+     flex-wrap: wrap;
+     border-radius: 10;
+     align-content: center;
+     -moz-border-radius: 10;
+     -ms-border-radius: 10;
+     -o-border-radius: 10;
+     margin-left: auto;
+     margin-top: 80px;
+     margin-bottom: auto;
+	 margin-right: auto;
+
+
+}
+
+a{
+    border: 3px;
+    background:radial-gradient(blueviolet);   
+}
+
+#clic{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+#tab{
+    border-radius: 20px;
+    background-color:aquamarine;
+    padding: 30px;
+    border-style: double;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: max-content;
+    border-left-color: blueviolet;
+    background:linear-gradient(to bottom,  #9932CC,#E9967A,#FF7F50 );
+    /*border-collapse: separate;*/
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
